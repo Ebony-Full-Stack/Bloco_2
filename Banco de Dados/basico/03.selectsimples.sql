@@ -6,7 +6,7 @@ use db_cadastro;
 
 create table tb_pessoas(
 	nome varchar(45),         
-    cpf bigint, # Note que uma alteração no tipo de dado foi feita.     
+    cpf bigint,      
 	idade int,                  
     altura decimal(3,2) 
 )default charset = utf8mb4; 
@@ -24,7 +24,7 @@ select * from tb_pessoas;
     representa todas as colunas.
 */
 
-
+desc tb_pessoas;
 
 
 
