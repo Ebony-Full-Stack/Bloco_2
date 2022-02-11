@@ -7,16 +7,14 @@
     listas de cadastros clientes, informações de vendas de uma 
     empresa e etc. 
     
-    Detalhe mega importante, por padrão... em sua natureza a linguagem
-    SQL exige o uso de ; ao fim de cada comando, isso porque seu uso 
-    inicialmente de deu apenas no terminal, não sendo possível por exemplo,
-    escrever um comando e quebrar linhas entre a sintaxe, além de ter que
-    digitá-lo em linha única, o mesmo deve terminar com ";" 
+    Detalhe mega importante, por padrão... em sua natureza a linguagem SQL exige o uso de ; ao fim de cada 
+    comando, isso porque seu uso inicialmente de deu apenas no terminal, não sendo possível por exemplo,
+    escrever um comando e quebrar linhas entre a sintaxe, além de ter que digitá-lo em linha única, o mesmo 
+    deve terminar com ";" 
     
-    Você vai perceber que os SGDS que temos atualmente permitem algumas 
-    facilidades, como o desuso do ";" e comandos feitos em linhas quebradas,
-    valendo ressaltar que, o comando que será executado, é aquele onde 
-    está o cursor.
+    Você vai perceber que os SGDS que temos atualmente permitem algumas facilidades, como o desuso do ";" 
+    e comandos feitos em linhas quebradas, valendo ressaltar que, o comando que será executado, é aquele 
+    onde está o cursor.
 </p>
 
 * [Instalando MySQL](https://drive.google.com/file/d/1QqVg5yxgEKJECWw3F6sbJ-PVzsdH-3LQ/view?usp=sharing)
@@ -48,7 +46,7 @@
 </p>
 
 <p align="center">
-    <img src="assets/img1.png">
+    <img src="https://github.com/Ebony-Full-Stack/Bloco_2/blob/upstream/Banco%20de%20Dados/basico/assets/img1.png">
 </p>
 
 <p>
@@ -57,16 +55,16 @@
 </p>
 
 <p align="center">
-    <img src="assets/img2.png">
+    <img src="https://github.com/Ebony-Full-Stack/Bloco_2/blob/upstream/Banco%20de%20Dados/basico/assets/img2.png">
 </p>
  
 * [Entendendo o que foi feito]()
 * [Tipos de dados](https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15)
 
-<p> 
+
     Daqui pra frente vamos seguir de forma diferente, mas
     note que, os arquivos tratam apenas do comando específico.
-</p>
+
 
 [Desc / Describe]() <br>
 [Select Simples]() <br>
@@ -74,10 +72,10 @@
 [Alter]()
 * [Entendo o que foi feito]()
 
-<p>
+
     Legal, agora precisamos conhecer alguns conceitos importantes antes de
     prosseguir-mos. Vamos falar sobre CHAVE PRIMÁRIA E ESTRANGEIRA, cola <a href="">aqui</a>!
-</p>
+
 
 <p>
     Certo, agora vamos prosseguir, para isto, sem medo de ser feliz,
@@ -107,10 +105,10 @@
     preciso te contar algumas coisas...
 </p>
 
-<p>
-    Certo, agora que criamos nosso primeiro relaciomento, vamos conhecer
+
+    Certo, agora que criamos nosso primeiro relacionamento, vamos conhecer
     mais alguns comandos...
-</p>
+
 
 [Join]()<br>
 [Union]()<br>
