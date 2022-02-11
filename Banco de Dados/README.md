@@ -70,10 +70,10 @@
     Daqui pra frente vamos seguir de forma diferente, mas note que, os arquivos tratam apenas do comando específico.
 </p>
 
-[Desc / Describe]() <br>
-[Select Simples]() <br>
-[Insert]() <br>
-[Alter]()
+[Desc / Describe](https://github.com/Ebony-Full-Stack/Bloco_2/blob/main/Banco%20de%20Dados/basico/01.describe.sql) <br>
+[Insert](https://github.com/Ebony-Full-Stack/Bloco_2/blob/main/Banco%20de%20Dados/basico/02.insert.sql) <br>
+[Select Simples](https://github.com/Ebony-Full-Stack/Bloco_2/blob/main/Banco%20de%20Dados/basico/03.selectsimples.sql) <br>
+[Alter](https://github.com/Ebony-Full-Stack/Bloco_2/blob/main/Banco%20de%20Dados/basico/04.alter.sql)
 * [Entendo o que foi feito]()
 
 <p>
