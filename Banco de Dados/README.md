@@ -55,8 +55,7 @@
 </p>
 
 <p>
-    Pronto, seu primeiro banco de dados está criado da forma mais simples
-    possível, agora vamos melhorar um pouquinho essa estrutura...
+    Pronto, seu primeiro banco de dados está criado da forma mais simples possível, agora vamos melhorar um pouquinho essa estrutura...
 </p>
 
 <p align="center">
@@ -84,16 +83,13 @@
 </p>
 
 <p>
-    Certo, agora vamos prosseguir, para isto, sem medo de ser feliz,
-    <strong>drope</strong> seu banco de dados e recrie, insira uma tabela tb_pessoas 
-    com os campos:
-    <br>id_pessoa<br>nome<br>data de nascimento<br>sexo<br>cpf<br>altura
-    <br>país<br><br>
-    Aproveite, e crie também uma nova tabela tb_produtos, com os seguintes
-    campos: <br> 
-    id<br>nome<br>descricao<br>validade<br>quantidade<br><br>
-    Ahhhhh Lembre-se de que o campo id deve ser a chave primária da sua tabela.
-
+    Certo, agora vamos prosseguir, para isto, sem medo de ser feliz,<strong>drope</strong> seu banco de dados e recrie, insira uma tabela tb_pessoas com os campos:
+    <br>id_pessoa<br>nome<br>data de nascimento<br>sexo<br>cpf<br>altura<br>país<br>data de cadastro<br>data de atualização<br><br>
+    Aproveite, e crie também uma nova tabela tb_produtos, com os seguintes campos: <br> 
+    id_produto<br>nome<br>descricao<br>validade<br>quantidade<br><br>
+    Ahhhhh Lembre-se de que o campo id deve ser a chave primária das suas tabelas e o relacionamento deve ser de n:n,
+    ou seja, muitos para muitos! <br><a href="">meu exemplo!</a></a>
+    
     Feito?! ToOp, vamos conhecer mais alguns comandos então...
 </p>
 
