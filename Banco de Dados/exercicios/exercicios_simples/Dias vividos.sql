@@ -1,4 +1,7 @@
-create database db_dias_vividos;
+create database db_dias_vividos
+default character set utf8mb4
+default collate utf8mb4_general_ci;
+
 use db_dias_vividos;
 
 create table tb_usuario (
@@ -10,7 +13,7 @@ create table tb_usuario (
     dt_criacao timestamp not null, 
     dt_atualizacao timestamp not null,
 	primary key (id_usuario) 
-);
+)default charset = utf8mb4;
 
 insert into tb_usuario (nome, email, stt, dt_nasc, dt_criacao, dt_atualizacao) values 
 ("Ebony", "ebony@ebonysys.net", true,"1990-11-01", current_date(), current_timestamp()),

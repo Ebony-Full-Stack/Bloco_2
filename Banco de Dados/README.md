@@ -59,7 +59,7 @@
 </p>
 
 <p align="center">
-    <img src="https://github.com/Ebony-Full-Stack/Bloco_2/blob/upstream/Banco%20de%20Dados/basico/assets/img2.png">
+    <img src="https://github.com/Ebony-Full-Stack/Bloco_2/blob/main/Banco%20de%20Dados/basico/assets/img2.png">
 </p>
  
 * [Entendendo o que foi feito]()
