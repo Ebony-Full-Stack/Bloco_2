@@ -66,10 +66,10 @@
 * [Entendendo o que foi feito]()
 * [Tipos de dados](https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15)
 
+<p>
 
-    Daqui pra frente vamos seguir de forma diferente, mas
-    note que, os arquivos tratam apenas do comando específico.
-
+    Daqui pra frente vamos seguir de forma diferente, mas note que, os arquivos tratam apenas do comando específico.
+</p>
 
 [Desc / Describe]() <br>
 [Select Simples]() <br>
@@ -77,10 +77,11 @@
 [Alter]()
 * [Entendo o que foi feito]()
 
+<p>
 
-    Legal, agora precisamos conhecer alguns conceitos importantes antes de
-    prosseguir-mos. Vamos falar sobre CHAVE PRIMÁRIA E ESTRANGEIRA, cola <a href="">aqui</a>!
-
+    Legal, agora precisamos conhecer alguns conceitos importantes antes de prosseguir-mos. Vamos falar sobre 
+    CHAVE PRIMÁRIA, CHAVE ESTRANGEIRA, MULTIPLAS CHAVES P e/ou E... cola <a href="">aqui</a>!
+</p>
 
 <p>
     Certo, agora vamos prosseguir, para isto, sem medo de ser feliz,
@@ -111,8 +112,7 @@
 </p>
 
 
-    Certo, agora que criamos nosso primeiro relacionamento, vamos conhecer
-    mais alguns comandos...
+    Certo, agora que criamos nosso primeiro relacionamento, vamos conhecer mais alguns comandos...
 
 
 [Join]()<br>
