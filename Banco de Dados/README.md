@@ -77,9 +77,8 @@
 * [Entendo o que foi feito]()
 
 <p>
-
     Legal, agora precisamos conhecer alguns conceitos importantes antes de prosseguir-mos. Vamos falar sobre 
-    CHAVE PRIMÁRIA, CHAVE ESTRANGEIRA, MULTIPLAS CHAVES P e/ou E... cola <a href="">aqui</a>!
+    CHAVE PRIMÁRIA, CHAVE ESTRANGEIRA, MULTIPLAS CHAVES P e/ou E... cola <a href="">aqui</a> !
 </p>
 
 <p>
