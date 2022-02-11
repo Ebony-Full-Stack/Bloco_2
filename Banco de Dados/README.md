@@ -1,3 +1,8 @@
+ iaeeeEE 🖖🏾! Estou atualizando o conteúdo do meu curso de BD, se você veio pelo SuperProf, 
+ relaxe porque seu material está pronto, apenas este repositório está sendo remodelado com
+ as atualizações que o material oficial já tem... Bjunda e bons estudos! 
+
+
 <h3> Banco de dados <i> MySQL </i></h3>
 <p>
     Quando agrupamos informações que de alguma forma se relacionam
