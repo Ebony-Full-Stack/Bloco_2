@@ -37,7 +37,7 @@ public class ProdutoModel {
 	
 	@Positive(message = "Preço. Valor maior que zero sempre")
 	@NotBlank(message="Preço não pode ficar vazio")
-	private double preco;
+	private double valor;
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date dtCadastro = new java.sql.Date(System.currentTimeMillis());

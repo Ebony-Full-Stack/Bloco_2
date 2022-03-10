@@ -33,10 +33,12 @@ public class ControllerTema {
 		return ResponseEntity.ok(repositoryTema.findAll());
 	}
 
-	@GetMapping("/{id}")
-	public ResponseEntity<ModelTema> gteByIdTema(@PathVariable long idTema) {
-		return repositoryTema.findById(idTema).map(resp -> ResponseEntity.ok(resp))
-				.orElse(ResponseEntity.notFound().build());
+	@GetMapping("/{id_tema}")
+	public ResponseEntity<ModelTema> getById(@PathVariable long id_tema) {
+		return repositoryTema.findById(id_tema)
+				.map(resp -> ResponseEntity.ok(resp))
+				.orElse(ResponseEntity.notFound()
+				.build());
 	}
 
 	@GetMapping("/descricao/{descricao}")

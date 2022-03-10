@@ -43,6 +43,8 @@ public class UsuarioService {
 		return Optional.of(repository.save(usuario));
 	}
 
+	
+	
 	public Optional<Usuario> atualizarUsuario(Usuario usuario) {
 
 		if (repository.findById(usuario.getId_usuario()).isPresent()) {
@@ -60,6 +62,8 @@ public class UsuarioService {
 
 		return Optional.empty();
 	}
+	
+	
 
 	public Optional<UserLogin> autenticarUsuario(Optional<UserLogin> userLogin) {
 

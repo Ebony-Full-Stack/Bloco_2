@@ -1,7 +1,5 @@
 package br.org.generation.BlogPessoal.model;
 
-
-
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -17,7 +15,7 @@ import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import io.swagger.annotations.ApiModelProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 
 @Entity
@@ -32,7 +30,7 @@ public class Usuario {
 	@Size(min = 2, max = 100)
 	private String nome;
 	
-	@ApiModelProperty(example = "email@email.com.br")
+	@Schema(example = "email@email.com.br")
 	@NotBlank(message = "O atributo usuário é obrigatório!")
 	@Email(message = "O formato do usuário é e-mail.")
 	private String email;

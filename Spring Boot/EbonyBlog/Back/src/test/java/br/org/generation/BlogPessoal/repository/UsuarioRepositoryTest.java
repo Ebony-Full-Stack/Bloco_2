@@ -26,9 +26,9 @@ public class UsuarioRepositoryTest {
 	@BeforeAll
 	void start(){
 
-		usuarioRepository.save(new Usuario(0L, "Juca Pedra", "joao@email.com.br", "13465278"));		
-		usuarioRepository.save(new Usuario(0L, "João Pé de Feijão", "joao@email.com.br", "13465278"));		
-		usuarioRepository.save(new Usuario(0L, "Ana Banana", "ana@email.com.br", "13465278"));
+		usuarioRepository.save(new Usuario(0L, "Juca Silva Pedra", "joao@email.com.br", "13465278"));		
+		usuarioRepository.save(new Usuario(0L, "João Pé de Feijão Silva", "joao@email.com.br", "13465278"));		
+		usuarioRepository.save(new Usuario(0L, "Ana Banana Silva", "ana@email.com.br", "13465278"));
         usuarioRepository.save(new Usuario(0L, "Pedro Pedra", "pedro@email.com.br", "13465278"));
 
 	}
@@ -47,10 +47,9 @@ public class UsuarioRepositoryTest {
 
 		List<Usuario> listaDeUsuarios = usuarioRepository.findAllByNomeContainingIgnoreCase("Silva");
 		assertEquals(3, listaDeUsuarios.size());
-		assertTrue(listaDeUsuarios.get(0).getNome().equals("João Pé de Feijão"));
-		assertTrue(listaDeUsuarios.get(1).getNome().equals("Juca Pedra"));
-		assertTrue(listaDeUsuarios.get(2).getNome().equals("Ana Banana"));
+		assertTrue(listaDeUsuarios.get(0).getNome().equals("João Pé de Feijão Silva"));
+		assertTrue(listaDeUsuarios.get(1).getNome().equals("Juca Silva Pedra"));
+		assertTrue(listaDeUsuarios.get(2).getNome().equals("Ana Banana Silva"));
 		
 	}
-
 }
