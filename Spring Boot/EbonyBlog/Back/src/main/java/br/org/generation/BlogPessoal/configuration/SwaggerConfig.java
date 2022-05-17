@@ -63,38 +63,3 @@ public class SwaggerConfig {
 	}
 }
 
-/*
- * @Bean public Docket api() { return new Docket (DocumentationType.SWAGGER_2)
- * .select() .apis(RequestHandlerSelectors
- * .basePackage("br.org.generation.BlogPessoal.controller"))
- * .paths(PathSelectors.any()) .build() .apiInfo(metadata())
- * .useDefaultResponseMessages(false) .globalResponses(HttpMethod.GET,
- * responseMessage()) .globalResponses(HttpMethod.POST, responseMessage())
- * .globalResponses(HttpMethod.PUT, responseMessage())
- * .globalResponses(HttpMethod.DELETE, responseMessage()); }
- * 
- * 
- * 
- * public static ApiInfo metadata() { return new ApiInfoBuilder()
- * .title("API - Ebony Blog") .description("Projeto API * Blog Pessoal")
- * .version("1.0.0") .license("Apache License Version 2.0")
- * .licenseUrl("https://github.com/Leon4rdoalves") .contact(contact()) .build();
- * }
- * 
- * private static Contact contact() { return new Contact("Leonardo Alves",
- * "leonardo@ebonysys.or.y", null); }
- * 
- * private static List <Response> responseMessage() { return new
- * ArrayList<Response>() {
- * 
- * private static final long serialVersionUID = 1L; { add(new
- * ResponseBuilder().code("200").description("Sucesso nenem!").build()); add(new
- * ResponseBuilder().code("201").description("Objeto Criado!").build()); add(new
- * ResponseBuilder().code("401").description("Vc não tem autorização jão!").
- * build()); add(new
- * ResponseBuilder().code("403").description("Proibido, corra!!").build());
- * add(new ResponseBuilder().code("404").description("Cadê saporra?!").build());
- * add(new
- * ResponseBuilder().code("500").description("Vish, fez merda aí no server né!")
- * .build()); } }; } }
- */
