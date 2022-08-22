@@ -16,9 +16,8 @@ relevantes dos tb_produto para se trabalhar com o serviço dessa pizzaria(não e
 salve as querys para cada uma dos requisitos o exercício em um arquivo .SQL ou texto e
 coloque no seu GitHuB pessoal e compartilhe esta atividade. */
 
-drop database db_pizzaria_legal;
-create database db_pizzaria_legal;
-use db_pizzaria_legal;
+create database db_ebonypizzaria;
+use db_ebonypizzaria;
 
 create table tb_categoria  (
 id_categoria bigint auto_increment,
