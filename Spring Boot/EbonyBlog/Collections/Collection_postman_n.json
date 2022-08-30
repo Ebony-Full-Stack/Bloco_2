@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "e67e6a1e-a594-4297-ac02-64c758a81bc4",
+		"name": "Ebony blog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cadastrar usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Leonardo Alves\",\r\n    \"email\": \"leonardo@ebonysys.or.y\",\r\n    \"senha\": \"sucodefruta\",\r\n    \"foto\": \"https://i.imgur.com/VKr930M.jpg\",\r\n    \"tipo\": \"ADM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/usuarios/cadastrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuarios",
+						"cadastrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logar usuario",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"bGVvbmFyZG9AZWJvbnlzeXMub3IueTpzdWNvZGVmcnV0YQ==\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"leonardo@ebonysys.or.y\",\r\n    \"senha\": \"sucodefruta\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/usuarios/logar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuarios",
+						"logar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Postagens",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic bGVvbmFyZG9AZWJvbnlzeXMub3IueTpzdWNvZGVmcnV0YQ==",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/postagens",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"postagens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Temas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic bGVvbmFyZG9AZWJvbnlzeXMub3IueTpzdWNvZGVmcnV0YQ==",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/tema",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tema"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Usuarios",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic bGVvbmFyZG9AZWJvbnlzeXMub3IueTpzdWNvZGVmcnV0YQ==",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/usuarios/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuarios",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Tema",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic bGVvbmFyZG9AZWJvbnlzeXMub3IueTpzdWNvZGVmcnV0YQ==",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Flamengo\",\r\n    \"descricao\": \"Falando sobre o Malvadão\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tema",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tema"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Postagem",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic bGVvbmFyZG9AZWJvbnlzeXMub3IueTpzdWNvZGVmcnV0YQ==",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"O brabo tem nome\",\r\n    \"texto\": \"O Mengão é maior, olê Olê Olá, o Mengão é o malvadão, olê olê Olá\",\r\n    \"tema\": {\r\n        \"id_tema\": 1\r\n    },\r\n    \"usuario\": {\r\n        \"id_usuario\": 1\r\n    }\r\n}    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/postagens",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"postagens"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
