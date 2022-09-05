@@ -11,6 +11,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
+import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -23,24 +24,21 @@ public class Produto {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotBlank(message="Nome é obrigatório!")
+	@NotBlank(message="Nome não pode ficar vazio")
+	@Size(min=3, message="Nome deve conter mais que 3 letras")
 	private String nome;
 	
-	@NotBlank(message="Descrição é obrigatório!")
+	@NotBlank(message="Descrição não pode ficar vazia")
+	@Size(max=300, message="Descrição não pode ser mais que 300 caracteres")
 	private String descricao;
 
 	private int quantidade;
 
 	private String laboratorio;
 	
-	/**
-	 * A anotação @JsonFormat(shape = JsonFormat.Shape.STRING) é utilizada 
-	 * para formatar o valor do preço do produto como uma String. Desta forma,
-	 * conseguiremos visualizar a parte decimal do preço mesmo sendo 00.
-	 */
 	@JsonFormat(shape = JsonFormat.Shape.STRING)
-	@NotNull(message="Preço é obrigatório!")
-	@Positive(message = "Digite um valor maior do que zero")
+	@NotNull(message="Preço não pode ficar vazio")
+	@Positive(message = "Preço precisa ser maior que 0")
 	private BigDecimal preco;
 	
 	private String foto;
