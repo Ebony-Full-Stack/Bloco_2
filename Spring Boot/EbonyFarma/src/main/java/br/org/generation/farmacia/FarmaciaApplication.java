@@ -1,15 +1,13 @@
-package com.ebony.Farma;
+package br.org.generation.farmacia;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FarmaApplication {
+public class FarmaciaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FarmaApplication.class, args);
+		SpringApplication.run(FarmaciaApplication.class, args);
 	}
 
 }
-
-	
